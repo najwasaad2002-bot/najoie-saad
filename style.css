@@ -115,3 +115,13 @@ h2 em { color: var(--sage); font-weight: 600; }
   .button { width: 100%; }
   .footer { flex-direction: column; gap: 8px; }
 }
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    align-items: center;
+}
+
+.project-meta span {
+    display: inline-block;
+}
