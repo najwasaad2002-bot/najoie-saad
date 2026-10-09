@@ -118,10 +118,14 @@ h2 em { color: var(--sage); font-weight: 600; }
 .project-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px 16px;
     align-items: center;
+    gap: 8px 24px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.8;
 }
 
 .project-meta span {
     display: inline-block;
+    margin-right: 12px;
 }
